@@ -11,3 +11,7 @@ fun returnAnInteger(): Int {
 fun isIntegerBiggerThanTen(x:Int): Boolean {
 	return x > 10
 }
+
+fun main(args: Array<String>) {
+	println("This should not run.")
+}
